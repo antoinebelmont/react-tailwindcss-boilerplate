@@ -6,3 +6,76 @@
     background-color: red;
     color: yellow;
 }
+.main-color{
+    color: #AE0004;
+}
+.text-box{
+    @apply p-3 rounded-xl roboto-regular;
+    font-size: 12pt;
+    color: red;
+    width: 20vw;
+    border: solid 2px #FF7F00;
+}
+.register-labels{
+    @apply roboto-regular;
+    font-size: 12pt;
+    color: #000;
+}
+.roboto-regular{
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+.ubuntu-regular{
+    font-family: 'Ubuntu';
+    font-weight: 400;
+}
+.ubuntu-bold{
+    font-family: 'Ubuntu';
+    font-weight: 800;
+}
+.menu-item{
+    @apply p-5 ubuntu-regular;
+    font-size: 14pt;
+    color: #4C7270;
+}
+
+#header{
+    box-shadow: 4px 3px 8px 1px #969696;
+}
+
+#register{
+    background-image: url("./components/assets/main-back-xl.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.register{
+    @apply main-color ubuntu-bold;
+    font-size: 92pt;
+}
+
+.your-bicycle{
+    @apply main-color ubuntu-regular;
+    font-size: 92pt;
+}
+
+.join{
+    @apply ubuntu-regular;
+    font-size: 24pt;
+    color: #31363A;
+}
+.community{
+    @apply ubuntu-bold;
+}
+.checks{
+    @apply  flex flex-col roboto-regular text-xs;
+}
+.register-check{
+    @apply mt-2;
+    border-color: #AFAEAE;
+}
+.userActionButton{
+    @apply bg-primary text-white rounded-xl ubuntu-bold pt-1 pb-1 mt-2;
+    font-size: 20pt;
+}
